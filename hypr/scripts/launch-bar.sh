@@ -1,8 +1,6 @@
 #!/bin/sh
 
 swww init
-sleep 4
-# swww img ~/.config/hypr/wallpapers/background_01.jpeg 
-# swww img ~/.config/hypr/wallpapers/background_02.jpg 
-swww img ~/.config/hypr/wallpapers/background_03.jpg 
+sleep 1
+swww img ~/Pictures/wallpapers/City-Rainy-Night.png
 ~/.config/eww/launch_bar

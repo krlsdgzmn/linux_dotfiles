@@ -1,0 +1,12 @@
+{
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "position": "top",
+  "height": 15,
+  "margin-left": 8,
+  "margin-right": 8,
+  "margin-top": 5,
+  "modules-left": ["battery", "pulseaudio", "backlight#2", "tray"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["clock#2"]
+}
