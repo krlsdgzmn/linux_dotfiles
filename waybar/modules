@@ -1,4 +1,9 @@
 {
+  "clock#2": {
+    "format": "  {:%H:%M}",
+    "format-alt": "{:%A  |  %H:%M  |  %e %B}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
   "hyprland/workspaces": {
     "active-only": false,
     "all-outputs": true,
@@ -103,12 +108,7 @@
       ]
     },
     "scroll-step": 5,
-    "on-click": "~/.config/hypr/scripts/Volume.sh --toggle",
-    "on-click-right": "pavucontrol -t 3",
-    "on-scroll-up": "~/.config/hypr/scripts/Volume.sh --inc",
-    "on-scroll-down": "~/.config/hypr/scripts/Volume.sh --dec",
-    "tooltip-format": "{icon} {desc} | {volume}%",
-    "smooth-scrolling-threshold": 1
+    "tooltip-format": "{icon} {desc} | {volume}%"
   },
   "tray": {
     "icon-size": 18,
