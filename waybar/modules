@@ -1,7 +1,6 @@
 {
   "clock#2": {
-    "format": "  {:%H:%M}",
-    "format-alt": "{:%A  |  %H:%M  |  %e %B}",
+    "format": "  {:%a, %Y %b %d, %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "hyprland/workspaces": {
